@@ -1,4 +1,4 @@
-**What's Trending!!! Tik Tok vs. Spotify Analysis**
+# **What's Trending!!! Tik Tok vs. Spotify Analysis**
 ![alt text](Images/TikTok.png)
 
 In this project, we are performing a comparative analysis to evaluate if the most viewed tik tok videos match the songs that are charting on Spotify. Our grouped
