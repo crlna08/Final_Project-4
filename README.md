@@ -9,9 +9,4 @@ pulled daily CSVs from Spotify to get the songs by artist with the most numbe ro
 
 
 Used:
-Jupyter Notebooks
-Pandas
-Python
-HTML/CSS
-JavaScript
-Tableau
+Jupyter Notebooks, Pandas, Python, HTML/CSS, JavaScript, Tableau
