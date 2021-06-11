@@ -4,7 +4,7 @@ In this project, we are performing a comparative analysis to evaluate if the mos
 pulled daily CSVs from Spotify to get the songs by artist with the most numbe rof streams to date. In order to obtain the Tik Tok data, an API was used.
 
 
-![alt text](Images/Spotify.png)
+![alt text](Images/TikTok.png) | ![alt text](Images/Spotify.png)
 
 
 
