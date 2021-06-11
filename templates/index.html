@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trending Music</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css"-->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <!--div class="wrapper">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Trending Music
+                </a>
+            </div>
+        </nav>-->
+        <div class="text-center">
+            <h1>Trending Music</h1>
+            <hr size="1" width="100%" color="#808080">
+            <p>THE CORRELATION BETWEEN TIKTOK AND SPOTIFY</p>
+        </div>
+    <!--/div>-->
+
+<!-- Start of side navbar -->
+    <div id="navbar">
+        <a href="javascript:void(0)" id="closenav">&times;</a>
+        <a class="navbar-brand" href="tiktok.html">TikTok
+            <img src="static/images/tiktoklogo.png" width="50" height="55";>
+        </a>
+        <a href="">Spotify
+            <img src="static/images/blackspotify.png" width="30" height="30";>
+        </a>
+        <a class="navbar-brand" href="combined.html">TikTok VS Spotify
+            <img src="static/images/tiktoklogo.png" width="50" height="55";>
+        </a>
+    </div>
+    <button id="opennav">&#9776</button>
+
+    <script>
+        document.getElementById("opennav").addEventListener("click", function(){
+            document.getElementById("navbar").style.width="250px";
+        })
+
+        document.getElementById("closenav").addEventListener("click", function(){
+            document.getElementById("navbar").style.width="";
+        })
+    </script>
+<!-- End of side navbar -->
+
+<!-- Spotify playlist embedded -->
+    <div style="text-align: center;">
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" width="50%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+<!-- TikTok video embedded -->
+    <div>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@charlidamelio/video/6839778733948275973" data-video-id="6839778733948275973" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@charlidamelio" href="https://www.tiktok.com/@charlidamelio">@charlidamelio</a> <p>THANK YOU GUYS SO MUCH FOR 64 MILLION!! also please let me know who made this dance!!! 💕</p> <a target="_blank" title="♬ Then Leave (feat. Queendom Come) - BeatKing" href="https://www.tiktok.com/music/Then-Leave-feat-Queendom-Come-6808287098886424577">♬ Then Leave (feat. Queendom Come) - BeatKing</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+</body>
+
+<footer class="footer">
+        <span class="bottom">© 2021</span>
+</footer>
+
+</html>

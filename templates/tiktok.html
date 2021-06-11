@@ -3,24 +3,77 @@
     <head>
         <meta charset="UTF-8">
         <title>TikTok Analysis</title>
-        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/style.css">
         
     </head>
     <body>
-        <div>
-            <img class="med-8x6" alt="TikTok logo ux design animation logo tiktok" width="768" height="579" data-id="2338109" data-optimize-for-bots="true" skip_resize="true" srcset="https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 300w, https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 400w, https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 600w, https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 800w" src="https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif" sizes="(max-width: 919px) 100vw, (min-width: 920px) and (max-width: 1200px) 74vw, 1172px">
+        <div class="text-center">
+            <h1>Trending Music</h1>
+            <hr size="1" width="100%" color="#808080">
+            <p>THE CORRELATION BETWEEN TIKTOK AND SPOTIFY</p>
         </div>
-        <div class='tableauPlaceholder' id='viz1623106009026' style='position: relative'><noscript><a href='#'><img alt='TikTok Analysis ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TikTokAnalysis&#47;TikTokAnalysis&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TikTokAnalysis&#47;TikTokAnalysis' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TikTokAnalysis&#47;TikTokAnalysis&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+
+    <!-- Start of side navbar -->
+    <div id="navbar">
+        <a href="javascript:void(0)" id="closenav">&times;</a>
+        <a class="navbar-brand" href="tiktok.html">TikTok
+            <img src="../static/images/tiktoklogo.png" width="50" height="55";>
+        </a>
+        <a href="">Spotify
+            <img src="../static/images/blackspotify.png" width="30" height="30";>
+        </a>
+    </div>
+    <button id="opennav">&#9776</button>
+
+    <script>
+        document.getElementById("opennav").addEventListener("click", function(){
+            document.getElementById("navbar").style.width="250px";
+        })
+
+        document.getElementById("closenav").addEventListener("click", function(){
+            document.getElementById("navbar").style.width="";
+        })
+    </script>
+    <!-- End of side navbar -->
+
+        <!-- <div>
+            <img style="background: color #000;" alt="TikTok logo ux design animation logo tiktok" width="468" height="279" data-id="2338109" data-optimize-for-bots="true" skip_resize="true" srcset="https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 300w, https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 400w, https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 600w, https://cdn.dribbble.com/users/1238327/screenshots/10519604/media/338b9518f97516f1e762b9fd839e3510.gif 800w" src="https://media.giphy.com/media/jS2pgTIhhTuAqneaF0/giphy.gif" sizes="(max-width: 500px) 100vw, (min-width: 500px) and (max-width: 800px) 74vw, 780px">
+        </div> -->
+        <div class="intro">
+            <img alt="TikTok logo gif" width="150" height="150" src='https://media.giphy.com/media/jS2pgTIhhTuAqneaF0/giphy.gif'>
+        </div>
+        <div class='tableauPlaceholder' id='viz1623211641420' style='position: relative'>
+            <noscript>
+            <a href='#'>
+                <img alt='TikTok Analysis (3) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TikTokAnalysis--&#47;TikTokAnalysis3&#47;1_rss.png' style='border: none' />
+            </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='TikTokAnalysis--&#47;TikTokAnalysis3' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TikTokAnalysis--&#47;TikTokAnalysis3&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>                
         <script type='text/javascript'>                    
-        var divElement = document.getElementById('viz1623106009026');                    
+        var divElement = document.getElementById('viz1623211641420');                    
         var vizElement = divElement.getElementsByTagName('object')[0];                    
-        if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='911px';vizElement.style.maxWidth='1511px';vizElement.style.width='100%';vizElement.style.minHeight='879px';vizElement.style.maxHeight='979px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
-        else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='911px';vizElement.style.maxWidth='1511px';vizElement.style.width='100%';vizElement.style.minHeight='879px';vizElement.style.maxHeight='979px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
-        else { vizElement.style.width='100%';vizElement.style.height='977px';}                     
+        if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1810px';vizElement.style.height='1179px';} 
+        else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1810px';vizElement.style.height='1179px';} 
+        else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     
         var scriptElement = document.createElement('script');                    
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
-
     </body>
 </html>

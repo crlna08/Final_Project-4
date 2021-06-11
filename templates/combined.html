@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TikTok Analysis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+        <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    </head>
+    <body>
+        <div class="text-center">
+            <h1>Trending Music</h1>
+            <hr size="1" width="100%" color="#808080">
+            <p>THE CORRELATION BETWEEN TIKTOK AND SPOTIFY</p>
+        </div>
+
+    <!-- Start of side navbar -->
+    <div id="navbar">
+        <a href="javascript:void(0)" id="closenav">&times;</a>
+        <a class="navbar-brand" href="tiktok.html">TikTok
+            <img src="../static/images/tiktoklogo.png" width="50" height="55";>
+        </a>
+        <a href="">Spotify
+            <img src="../static/images/blackspotify.png" width="30" height="30";>
+        </a>
+    </div>
+    <button id="opennav">&#9776</button>
+
+    <script>
+        document.getElementById("opennav").addEventListener("click", function(){
+            document.getElementById("navbar").style.width="250px";
+        })
+
+        document.getElementById("closenav").addEventListener("click", function(){
+            document.getElementById("navbar").style.width="";
+        })
+    </script>
+    <!-- End of side navbar -->
+
+    <div id="chartdiv"></div>
+
+    <body>
+<html>
+
+
