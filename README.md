@@ -8,5 +8,17 @@ pulled daily CSVs from Spotify to get the songs by artist with the most numbe ro
 
 
 
-Used:
+**Used:**
 Jupyter Notebooks, Pandas, Python, HTML/CSS, JavaScript, Tableau
+
+
+
+**Results:**
+
+We found that there wasn't much correlation between the two platforms.
+
+
+
+**Next Steps:**
+
+Since the Spotify data only shows total number of streams to date, we could perform some analysis to understand which songs has the most streams overnight and track those songs for a certain timeframe.
