@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Comparison</title>
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="WebVisualizations/assets/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
 </head>
 
 <body>
@@ -19,18 +19,18 @@
     <!-- Start of side navbar -->
     <div id="navbar">
         <a href="javascript:void(0)" id="closenav">&times;</a>
-        <a href="index.html">HOME</a>
-        <a href="./tiktok.html">TIKTOK
-            <img src="WebVisualizations/assets/images/blacktiktok.png" width="45" height="42";>
+        <a href="/">HOME</a>
+        <a href="/tiktok">TIKTOK
+            <img src="{{ url_for('static',filename='/images/blacktiktok.png') }}" width="45" height="42";>
         </a>
-        <a href="WebVisualizations/visualizations/spotify.html">SPOTIFY
-            <img src="WebVisualizations/assets/images/blackspotify.png" width="30" height="30";>
+        <a href="/spotify">SPOTIFY
+            <img src="{{ url_for('static',filename='/images/blackspotify.png') }}" width="30" height="30";>
         </a>
-        <a href="WebVisualizations/visualizations/comparison.html">COMPARISON</a>
+        <a href="/comparison">COMPARISON</a>
         
         <!-- Github social share -->
         <a href="https://github.com/crlna08/Project-4" target=”_blank>
-            <img src="WebVisualizations/assets/images/blackgithub.png" width="40" height="40";>
+            <img src="{{ url_for('static',filename='/images/blackgithub.png') }}" width="40" height="40";>
         </a>
     </div>
     <button id="opennav">&#9776</button>
@@ -46,6 +46,17 @@
             })
         </script>
     <!-- End of side navbar -->
+
+    <!-- into -->
+    <div>
+        <p>
+            This page reflects top songs from both Spotify and TikTok. 
+            As you can see the top songs on the apps have no correlation. 
+            <br>
+            We believe that there should be  correlation, arists should take adventage of TikTok trends.
+            TikTok is a great outlet to be discovered but it’s by no means the only platform an artist should depend on to grow their fanbase.
+        </p>
+    </div>
 
     <!-- Start of TikTok/Spotify Tableau visualizations -->
     <div>

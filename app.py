@@ -20,18 +20,18 @@ def index():
 
 # tiktok analysis page 
 @app.route("/tiktok")
-def visualizations():
+def tiktok():
     return render_template("tiktok.html")
 
 # spotify analysis page 
 @app.route("/spotify")
-def data():
+def spotify():
     return render_template("spotify.html")
 
 # tiktok analysis page 
-@app.route("/trends")
-def data():
-    return render_template("combined.html")
+@app.route("/comparison")
+def comparison():
+    return render_template("comparison.html")
 
 if __name__ == "__main__":
     app.run()

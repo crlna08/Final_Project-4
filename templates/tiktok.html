@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TikTok</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <h1>TikTok</h1>
+    </header>
+
+    <!-- Start of side navbar -->
+    <div id="navbar">
+        <a href="javascript:void(0)" id="closenav">&times;</a>
+        <a href="/">HOME</a>
+        <a href="/tiktok">TIKTOK
+            <img src="{{ url_for('static',filename='/images/blacktiktok.png') }}" width="45" height="42";>
+        </a>
+        <a href="/spotify">SPOTIFY
+            <img src="{{ url_for('static',filename='/images/blackspotify.png') }}" width="30" height="30";>
+        </a>
+        <a href="/comparison">COMPARISON</a>
+        
+        <!-- Github social share -->
+        <a href="https://github.com/crlna08/Project-4" target=”_blank>
+            <img src="{{ url_for('static',filename='/images/blackgithub.png') }}" width="40" height="40";>
+        </a>
+    </div>
+    <button id="opennav">&#9776</button>
+
+        <!-- Opening and closing navbar function -->
+        <script>
+            document.getElementById("opennav").addEventListener("click", function(){
+                document.getElementById("navbar").style.width="250px";
+            })
+
+            document.getElementById("closenav").addEventListener("click", function(){
+                document.getElementById("navbar").style.width="";
+            })
+        </script>
+    <!-- End of side navbar -->
+
+    <!-- intro  -->
+    <div> 
+        <p>
+        TikTok is a Chinese video-sharing platform that took over Gen Z since it's initial release in 2016.
+        The social media platform is used for creating short-form videos from 15 seconds and up to a minute, in various genres such as; music, dance, comedy, and education. 
+        <br>
+        The amount of followers and likes top users recieve in TikTok is in millions and billions. Taking into consideration that the US currently has ~328.2 Million people, having billions of followers means around the world acknowledgement. 
+        <br>
+        The top songs on TikTok can be represent by the number of videos that were created with them. Those numbers are in millions as well, giving artists a tremendous exposure.
+        <br>
+        The scatter plot is in alignment with Tik Tok’s algorithm. Initially when a use creates an account and posts videos, they may receive a high volume of likes even if their follower count is low. 
+        But as a user’s presence grows, the number of likes they receive may not rise as their follow count rises. Essentially as followers increase after a certain threshold, number of likes don’t necessarily increase.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Start of TikTok Tableau visualizations -->
+    <div>
+        <div class='tableauPlaceholder' id='viz1623211641420' style='position: relative'>
+            <noscript>
+            <a href='#'>
+                <img alt='TikTok Analysis (3) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TikTokAnalysis--&#47;TikTokAnalysis3&#47;1_rss.png' style='border: none' />
+            </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='TikTokAnalysis--&#47;TikTokAnalysis3' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TikTokAnalysis--&#47;TikTokAnalysis3&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1623211641420');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1810px';vizElement.style.height='1179px';} 
+        else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1810px';vizElement.style.height='1179px';} 
+        else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+      
+    </div>
+    <!-- End of TikTok Tableau visualizations -->
+
+
+    <!-- Start of footer -->
+    <footer class="footer">
+        <span class="bottom">&copy 2021</span>
+    </footer>
+    <!-- End of footer -->
+
+</body>
+
+</html>
