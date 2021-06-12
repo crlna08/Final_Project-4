@@ -1,0 +1,112 @@
+h1{
+    top: 30px;
+    padding-left: 2px;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 42px;
+}
+p{
+    margin-left: 50px;
+    padding: 150px 0px 0px 0px;
+    text-align: left;
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    z-index: 3;
+}
+footer{
+    margin-top: 10px;
+    padding: 20px;
+    text-align: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+#header{
+    position: fixed;
+    z-index: 2;
+}
+#navbar{
+    width: 009px;
+    background-color: #FE2C55;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 0px #00f2ea;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s ease-in-out;
+    height: 100%;
+}
+#navbar a{
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 2px;
+    font-size: 25px;
+    text-transform: capitalize;
+    transition: 0.4s all;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+}
+#navbar a:hover{
+    color: white;
+    transform: scale(1.1) translate(10px);
+}
+#navbar a:nth-child(1){
+    position: relative;
+    top: -35px;
+    left: 65%;
+    text-transform: lowercase;
+    margin: 20px;
+    font-size: 30px;
+    transform: scale(1) translate(10px);
+}
+#tiktok{
+    margin-top: 15px;
+    margin-left: 100px;
+    text-align: center;
+}
+#tiktok a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tiktok a:hover{
+    filter: blur(3px);
+}
+#spotify-playlist{
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+#tiktok-video{
+    margin: 50px;
+    text-align: left;
+}
+.tiktok-img{
+    margin: 15px;
+    box-shadow: 7px 7px 1px #808080;
+}

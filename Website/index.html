@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trending Music</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="WebVisualizations/assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <h1>Trending Music</h1>
+    </header>
+
+    <!-- Start of side navbar -->
+    <div id="navbar">
+        <a href="javascript:void(0)" id="closenav">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="WebVisualizations/visualizations/tiktok.html">TIKTOK
+            <img src="WebVisualizations/assets/images/blacktiktok.png" width="45" height="42";>
+        </a>
+        <a href="WebVisualizations/visualizations/spotify.html">SPOTIFY
+            <img src="WebVisualizations/assets/images/blackspotify.png" width="30" height="30";>
+        </a>
+        <a href="WebVisualizations/visualizations/trends.html">TRENDS</a>
+        
+        <!-- Github social share -->
+        <a href="https://github.com/crlna08/Project-4" target=”_blank>
+            <img src="WebVisualizations/assets/images/blackgithub.png" width="40" height="40";>
+        </a>
+    </div>
+    <button id="opennav">&#9776</button>
+
+        <!-- Opening and closing navbar function -->
+        <script>
+            document.getElementById("opennav").addEventListener("click", function(){
+                document.getElementById("navbar").style.width="250px";
+            })
+
+            document.getElementById("closenav").addEventListener("click", function(){
+                document.getElementById("navbar").style.width="";
+            })
+        </script>
+    <!-- End of side navbar -->
+
+    <!-- Start of top TikTok music -->
+    <div id="tiktok">
+            <!-- 1 -->
+            <a href="https://www.tiktok.com/music/Then-Leave-feat-Queendom-Come-6808287098886424577" target=”_blank”><!--Then Leave (feat. Queendom Come) - BeatKing-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/thenleave.jpeg" width="250" height="250";>
+            </a>
+            <!-- 2 -->
+            <a href="https://www.tiktok.com/music/Stunnin-feat-Harm-Franklin-6813134956269947654" target=”_blank”><!--Stunnin' (feat. Harm Franklin) - Curtis Waters-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/stunnin.jpeg" width="250" height="250";>
+            </a>
+            <!-- 3 -->
+            <a href="https://www.tiktok.com/music/Hood-Baby-6812545347835922434" target=”_blank”><!--Hood Baby - Kbfr-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/hoodbaby.jpeg" width="250" height="250";>
+            </a>
+            <br>
+            <!-- 4 -->
+            <a href="https://www.tiktok.com/music/Dream-Girl-6807966889273346822" target=”_blank”><!--Dream Girl - Ir Sais-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/dreamgirl.jpeg" width="250" height="250";>
+            </a>
+            <!-- 5 -->
+            <a href="https://www.tiktok.com/music/Do-It-6827517892439968517" target=”_blank”><!--Do It - Chloe x Halle-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/doit.jpeg" width="250" height="250";>
+            </a>
+            <!-- 6 -->
+            <a href="https://www.tiktok.com/music/Savage-Love-Laxed-Siren-Beat-6828290428744338181" target=”_blank”><!--Savage Love (Laxed - Siren Beat) - Jawsh 685 & Jason Derulo-->
+                <img class="tiktok-img" src="WebVisualizations/Assets/Images/savagelove.jpeg" width="250" height="250";>
+            </a>
+            <br>
+            <!-- 7 -->
+            <a href="https://www.tiktok.com/music/Mr-Blue-Sky-6754420279457565445" target=”_blank”><!--Mr. Blue Sky - Electric Light Orchestra-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/mrbluesky.jpeg" width="250" height="250";>
+            </a>
+            <!-- 8 -->
+            <a href="https://www.tiktok.com/music/Monkeys-Spinning-Monkeys-6746993352891189249" target=”_blank”><!--Monkeys Spinning Monkeys - Kevin MacLeod-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/monkeyspinningmonkeys.jpeg" width="250" height="250";>
+            </a>
+            <!-- 9 -->
+            <a href="https://www.tiktok.com/music/Woah-feat-D3Mstreet-6691366574592396038" target=”_blank”><!--Woah (feat. D3Mstreet) - KRYPTO9095-->
+                <img class="tiktok-img" src="WebVisualizations/assets/images/woah.jpeg" width="250" height="250";>
+            </a>
+    </div>
+    <!-- End of top TikTok music -->
+
+    <!-- Spotify playlist embedded -->
+    <div id="spotify-playlist">
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" width="62%" height="580" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <!-- Start of footer -->
+    <footer class="footer">
+        <span class="bottom">&copy 2021</span>
+    </footer>
+    <!-- End of footer -->
+
+</body>
+
+</html>
